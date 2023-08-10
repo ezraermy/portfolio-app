@@ -34,6 +34,11 @@ const Skills = () => {
     setIsOpen(false);
   }
 
+  // New function to open link in a new tab
+  function openSkillLink(link) {
+    window.open(link, "_blank");
+  }
+
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
       {/* modal */}
@@ -43,27 +48,19 @@ const Skills = () => {
         style={customStyles}
       >
         <div className="flex items-center gap-2">
-          <img className="h-10" src={selectSkill?.logo} alt="..." />
+          <img
+            className="h-10"
+            src={selectSkill?.logo}
+            alt={selectSkill?.name}
+          />
           <h6>{selectSkill?.name}</h6>
-        </div>
-        <br />
-        <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
-        </ul>
-        <br />
-        <div className="flex justify-end">
-          <button onClick={closeModal} className="btn">
-            Close
-          </button>
+          <a
+            href={selectSkill?.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>Learn more...</p>
+          </a>
         </div>
       </Modal>
 
@@ -82,7 +79,7 @@ const Skills = () => {
               key={i}
               data-aos="fade-up"
               data-aos-delay={i * 400}
-              className="bg-white sm:cursor-pointer 
+              className="bg-white sm:cursor-pointer
                relative group w-full flex items-center
                 gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200"
             >
@@ -97,11 +94,8 @@ const Skills = () => {
                 <h6>{skill.name}</h6>
                 <p className="italic">{skill.para}</p>
                 <div
-                  onClick={() => {
-                    setSelectSkill(skill);
-                    openModal();
-                  }}
-                  className="text-xl absolute top-3 right-3"
+                  onClick={() => openSkillLink(skill.link)} // Call the new function here
+                  className="text-xl absolute top-3 right-3 cursor-pointer" // Add cursor-pointer class for better UX
                 >
                   {createElement(skills.icon)}
                 </div>

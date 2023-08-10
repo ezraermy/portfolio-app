@@ -84,46 +84,55 @@ export const content = {
         name: "Ruby",
         para: "Ruby on Rails",
         logo: ruby,
+        link: "https://rubyonrails.org/",
       },
       {
         name: "Python",
         para: "Django Framework",
         logo: python,
+        link: "https://www.djangoproject.com/",
       },
       {
         name: "React js",
         para: "React Redux",
         logo: reactjs,
+        link: "https://reactjs.org/",
       },  
       {
         name: "Node js",
         para: "Web servers, APIs, real-time applications",
         logo: nodejs,
+        link: "https://nodejs.org/en/",
       },
       {
         name: "Bootstrap",
         para: "React Bootstrap",
         logo: bootstrap,
+        link: "https://react-bootstrap.github.io/",
       },
       {
         name: "SQL",
         para: "MySQL, PostgreSQL",
         logo: sql,
+        link: "https://www.mysql.com/",
       },
       {
         name: "git",
         para: "Version Control System",
         logo: git,
+        link: "https://git-scm.com/",
       },
       {
         name: "GitHub",
         para: "Cloud-based service for software development",
         logo: github,
+        link: "https://github.com",
       },
       {
         name: "Adobe Photoshop",
         para: "Graphic Design",
         logo: ps,
+        link: "https://www.adobe.com/products/photoshop.html",
       }
      
     ],
