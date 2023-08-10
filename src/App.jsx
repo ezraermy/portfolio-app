@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Solutions from "./components/Solutions";
+import Recommendations from "./components/Recommendations";
 
 import { useEffect } from "react";
 // Animation package
@@ -25,6 +26,7 @@ const App = () => {
       <Skills />
       <Projects />
       <Solutions />
+      <Recommendations />
       <footer className="p-3 text-center">
         <h6 className="mb-3">EZRA YEHUWALASHET</h6>
         <p>codeaprogram © All CopyRights Reserved 2022</p>
