@@ -1,5 +1,5 @@
 // import images
-import person from "./assets/images/Hero/person.png";
+import person from "./assets/images/Hero/person1.png";
 
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
@@ -15,18 +15,17 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/Projects/img1.png";
-import project2 from "./assets/images/Projects/img2.png";
-import project3 from "./assets/images/Projects/img3.png";
-import person_project from "./assets/images/Projects/person.png";
+import project1 from "./assets/images/Projects/restaurant.png";
+import project2 from "./assets/images/Projects/book.png";
+import project3 from "./assets/images/Projects/calculator.png";
+import person_project from "./assets/images/Projects/person3.JPG";
+import person_project2 from "./assets/images/Projects/person4.JPG";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
+import avatar1 from "./assets/images/Testimonials/Ikbal.png";
+import avatar2 from "./assets/images/Testimonials/soza.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person from "./assets/images/Hireme/person3.JPG";
+import Hireme_person2 from "./assets/images/Hireme/person4.JPG";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -132,72 +131,64 @@ export const content = {
   },
   services: {
     title: "Services",
-    subtitle: "WHAT I OFFER",
+    subtitle: "EXPERTISE I PROVIDE",
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Creating interactive and scalable websites with a focus on user experience. From front-end design to robust backends, I deliver customized solutions tailored to clients' needs.",
         logo: services_logo1,
       },
       {
         title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Crafting visually appealing user interfaces. With a focus on user-centered experiences by enhancing engagement and usability, delivering meaningful results for businesses and their customers.",
         logo: services_logo2,
       },
       {
         title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: " Creativity and attention to detail to every project, delivering high-quality results that meet clients' specifications and exceed expectations.",
         logo: services_logo3,
       },
     ],
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
+    subtitle: "MY TOUR DE FORCE",
+    image1: person_project,
+    image2: person_project2,
     project_content: [
       {
-        title: "Gym Website",
+        title: "FE-RESTAURANT",
         image: project1,
+        githubLink: "https://github.com/francksefu/franck-ezra-capstone", // Replace with the actual GitHub URL for project1
       },
       {
-        title: "Social Media web",
+        title: "BOOK STORE",
         image: project2,
+        githubLink: "https://github.com/ezraermy/bookstore", // Replace with the actual GitHub URL for project2
       },
       {
-        title: "Creative Website",
+        title: "CALCULATOR",
         image: project3,
+        githubLink: "https://github.com/ezraermy/math-magicians", // Replace with the actual GitHub URL for project3
       },
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+  Recommendations: {
+    title: "Recommendations",
+    subtitle: "MY COWORKERS SAY",
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“It is my pleasure to strongly recommend Ezra Yehuwalashet as a talented and passionate web developer. I had the pleasure of working with Ezra on two different web development projects during my time at Microverse. Ezra proved to be an excellent coding partner, with a remarkable work ethic and top-notch coding skills. Ezra is an intelligent and friendly individual, with a strong passion for web development. His enthusiasm for coding was infectious, and it was a joy to work alongside him. Whenever we faced tough challenges during our projects, Ezra demonstrated his ability to find creative solutions that produced results. Throughout my collaboration with Ezra, I was consistently impressed by his attention to detail, his thoroughness, and his ability to deliver projects on time. He was a reliable and trustworthy team player, and I can confidently vouch that his passion and dedication toward his work would make him a valuable addition to any team. It is with the utmost confidence that I recommend Ezra for any web development role. I'm sure that his exceptional skills, as well as his passion and positive attitude, would make him an asset to any organization.”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "IKBAL ELHAM ",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“I had the pleasure of working with Ezra and would highly recommend him for any project or role. Ezra is a skilled full-stack developer with a strong work ethic and attention to detail. I remember he teaching some advices that I am still using today. Additionally, Ezra is a reliable and collaborative team member, always willing to lend a hand and support his colleagues. Overall, I believe Ezra would be a valuable asset to any organization and I highly recommend him.”",
         img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-      },
+        name: "EDGARD SOZA",
+      }
     ],
   },
   Hireme: {

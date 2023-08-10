@@ -1,13 +1,5 @@
 // import components
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Solutions from "./components/Solutions";
-import Recommendations from "./components/Recommendations";
-import Contact from "./components/Contact";
-import Hireme from "./components/Hireme";
-
 import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
@@ -24,15 +16,8 @@ const App = () => {
   return (
     <div className="">
       <Navbar />
-      <Home />
-      <Skills />
-      <Projects />
-      <Solutions />
-      <Recommendations />
-      <Hireme />
-      <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
+        <h6 className="mb-3">EZRA YEHUWALASHET</h6>
         <p>codeaprogram © All CopyRights Reserved 2022</p>
       </footer>
     </div>
