@@ -18,6 +18,9 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/Projects/restaurant.png";
 import project2 from "./assets/images/Projects/book.png";
 import project3 from "./assets/images/Projects/calculator.png";
+import project4 from "./assets/images/Projects/blog.png";
+import project5 from "./assets/images/Projects/recipe.png";
+import project6 from "./assets/images/Projects/budget.png";
 import person_project from "./assets/images/Projects/person3.JPG";
 import person_project2 from "./assets/images/Projects/person4.JPG";
 
@@ -168,18 +171,33 @@ export const content = {
       {
         title: "FE-RESTAURANT",
         image: project1,
-        githubLink: "https://github.com/francksefu/franck-ezra-capstone", // Replace with the actual GitHub URL for project1
+        githubLink: "https://github.com/francksefu/franck-ezra-capstone", 
       },
       {
         title: "BOOK STORE",
         image: project2,
-        githubLink: "https://github.com/ezraermy/bookstore", // Replace with the actual GitHub URL for project2
+        githubLink: "https://github.com/ezraermy/bookstore", 
       },
       {
         title: "CALCULATOR",
         image: project3,
-        githubLink: "https://github.com/ezraermy/math-magicians", // Replace with the actual GitHub URL for project3
+        githubLink: "https://github.com/ezraermy/math-magicians", 
       },
+      {
+        title: "BLOG",
+        image: project4,
+        githubLink: "https://github.com/ezraermy/rails-blog", 
+      },
+      {
+        title: "RECIPE-APP",
+        image: project5,
+        githubLink: "https://github.com/ezraermy/recipe-app",
+      },
+      {
+        title: "BUDGET-APP",
+        image: project6,
+        githubLink: "http://github.com/ezraermy/Budget-App",
+      }
     ],
   },
   Recommendations: {
