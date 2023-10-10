@@ -231,23 +231,23 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "ezraermy@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:ezraermy@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+2519 25394152",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "tel:+251925394152",
       },
       {
-        text: "codeaprogram",
+        text: "ezraermy",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/ezraermy/",
       },
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    test: "2023 CodeAProgram. All Rights Reserved"
   },
 };
