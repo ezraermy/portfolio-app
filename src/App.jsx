@@ -31,7 +31,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">EZRA YEHUWALASHET</h6>
-        <p>Copyright © 2023 Ezra Yehuwalashet</p>
+        <p>Copyright © 2022 CodeAProgram </p>
       </footer>
     </div>
   );

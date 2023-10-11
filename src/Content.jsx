@@ -248,6 +248,6 @@ export const content = {
     ],
   },
   Footer: {
-    test: "2023 CodeAProgram. All Rights Reserved"
+    test: "2022 CodeAProgram. All Rights Reserved"
   },
 };
