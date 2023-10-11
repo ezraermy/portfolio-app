@@ -12,7 +12,7 @@ const Projects = () => {
   const { Projects } = content;
   return (
     <section className="bg-bg_light_primary pt-0" id="projects">
-      <div className="md:container px-5 pt-40 min-h-screen flex flex-col justify-between">
+      <div className="md:container px-5 pt-10 pb-10 flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
@@ -23,7 +23,7 @@ const Projects = () => {
 
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <img
+          {/* <img
             src={Projects.image1}
             alt="..."
             data-aos="fade-right"
@@ -34,7 +34,7 @@ const Projects = () => {
             data-aos="fade-up"
             alt="..."
             className="max-w-sm md:hidden"
-          />
+          /> */}
           <Swiper
             pagination={{
               clickable: true,
@@ -42,14 +42,14 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 max-w-xl drop-shadow-primary self-start w-full"
           >
             {Projects.project_content.map((content, i) => (
              <SwiperSlide
              key={i}
              className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]" // Increase the height to 400px
            >
-             <img src={content.image} alt="..." />
+             <img src={content.image} alt="..."/>
              <div className="flex flex-row justify-between mt-4"> {/* Use flex and justify-between to make title and button end to end */}
                <h5 className="font-bold font-Poppins">{content.title}</h5>
                <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
