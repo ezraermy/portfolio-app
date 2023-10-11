@@ -29,7 +29,7 @@ const Recommendations = () => {
           }}
           data-aos="fade-up"
           loop={true}
-          spaceBetween={40}
+          spaceBetween={30}
           slidesPerView={1.7}
           onSlideChange={(e) => {
             console.log(e.realIndex);
