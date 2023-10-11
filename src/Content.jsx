@@ -1,15 +1,18 @@
 // import images
 import person from "./assets/images/Hero/person.png";
 
+// import skills logo
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
 import ruby from "./assets/images/Skills/ruby.png";
+import js from "./assets/images/Skills/js.png";
 import git from "./assets/images/Skills/git.png";
 import github from "./assets/images/Skills/github.png";
 import sql from "./assets/images/Skills/sql.png";
 import bootstrap from "./assets/images/Skills/bootstrap.png";
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -96,6 +99,12 @@ export const content = {
         para: "Django Framework",
         logo: python,
         link: "https://www.djangoproject.com/",
+      },
+      {
+        name: "JavaScript",
+        para: "Node js, React Native",
+        logo: js,
+        link: "https://www.javascript.com/",
       },
       {
         name: "React js",
