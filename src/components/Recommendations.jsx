@@ -36,7 +36,7 @@ const Recommendations = () => {
             setActiveIndex(e.realIndex);
           }}
           modules={[Pagination]}
-          className="md:h-95 h-[60rem] max-w-6xl"
+          className="md:h-96 h-[60rem] max-w-6xl"
         >
           {Recommendations.testimonials_content.map((content, i) => (
             <SwiperSlide key={i}>
