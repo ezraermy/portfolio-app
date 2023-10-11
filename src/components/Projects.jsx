@@ -17,7 +17,7 @@ const Projects = () => {
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
           </h2>
-          <h4 className="subtitle" data-aos="fade-down">
+          <h4 className="subtitle pb-5" data-aos="fade-down">
             {Projects.subtitle}
           </h4>
 
@@ -35,10 +35,10 @@ const Projects = () => {
             {Projects.project_content.map((content, i) => (
              <SwiperSlide
              key={i}
-             className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]" // Increase the height to 400px
+             className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]" 
            >
              <img src={content.image} alt="..."/>
-             <div className="flex flex-row justify-between mt-4"> {/* Use flex and justify-between to make title and button end to end */}
+             <div className="flex flex-row justify-between mt-4">
                <h5 className="font-bold font-Poppins">{content.title}</h5>
                <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
                  <button className="font-bold text-gray">
