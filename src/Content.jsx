@@ -26,6 +26,8 @@ import person_project2 from "./assets/images/Projects/person4.JPG";
 
 import avatar1 from "./assets/images/Testimonials/Ikbal.png";
 import avatar2 from "./assets/images/Testimonials/soza.png";
+import avatar3 from "./assets/images/Testimonials/nela.jpeg";
+import avatar4 from "./assets/images/Testimonials/yoseph.jpeg";
 
 import Hireme_person from "./assets/images/Hireme/person3.JPG";
 import Hireme_person2 from "./assets/images/Hireme/person4.JPG";
@@ -215,6 +217,18 @@ export const content = {
           "“I had the pleasure of working with Ezra and would highly recommend him for any project or role. Ezra is a skilled full-stack developer with a strong work ethic and attention to detail. I remember he teaching some advices that I am still using today. Additionally, Ezra is a reliable and collaborative team member, always willing to lend a hand and support his colleagues. Overall, I believe Ezra would be a valuable asset to any organization and I highly recommend him.”",
         img: avatar2,
         name: "EDGARD SOZA",
+      },
+      {
+        review:
+          "“It is an honor to recommend Ezra as one of the best coding partners I've had in my career as a programmer. Ezra is not only an exceptional programmer with a natural ability to solve complex problems but also stands out for his tireless dedication to studying and unwavering determination. His relentless pursuit of excellence helped us overcome academic challenges and approach projects with creativity and innovative perspectives. Ezra possesses a unique ability to motivate and inspire those around him, encouraging them to think differently and tackle problems from various angles. He combines strong technical skills with exceptional soft skills, making him a role model in the industry. His success in programming and his effective collaboration with others make him an invaluable asset to any development team.”",
+          img: avatar3,
+          name: "Marianela Muñoz Gutierrez"
+      }, 
+      {
+        review:
+          "“I had the opportunity to work with Ezera Yehuwalashet for a while at Microverse, and I was impressed by their expertise and creativity as a web developer. Ezera has a solid knowledge of the web development stack, including HTML, CSS, JavaScript, React, Redux, and Ruby on Rails. They were able to deliver high-quality and user-friendly web applications that met the requirements and expectations. Ezra is not only a skilled coder, but also a great team player and communicator. They collaborated effectively with other developers, designers, and project managers, and always contributed valuable insights and feedback. They were also proactive in learning new technologies and best practices, and always willing to share their knowledge with others.”",
+          img: avatar4,
+          name: "Yoseph Addisu"
       }
     ],
   },
