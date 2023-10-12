@@ -1,15 +1,18 @@
 // import images
 import person from "./assets/images/Hero/person.png";
 
+// import skills logo
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
 import ruby from "./assets/images/Skills/ruby.png";
+import js from "./assets/images/Skills/js.png";
 import git from "./assets/images/Skills/git.png";
 import github from "./assets/images/Skills/github.png";
 import sql from "./assets/images/Skills/sql.png";
 import bootstrap from "./assets/images/Skills/bootstrap.png";
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -26,6 +29,8 @@ import person_project2 from "./assets/images/Projects/person4.JPG";
 
 import avatar1 from "./assets/images/Testimonials/Ikbal.png";
 import avatar2 from "./assets/images/Testimonials/soza.png";
+import avatar3 from "./assets/images/Testimonials/nela.jpeg";
+import avatar4 from "./assets/images/Testimonials/yoseph.jpeg";
 
 import Hireme_person from "./assets/images/Hireme/person3.JPG";
 import Hireme_person2 from "./assets/images/Hireme/person4.JPG";
@@ -94,6 +99,12 @@ export const content = {
         para: "Django Framework",
         logo: python,
         link: "https://www.djangoproject.com/",
+      },
+      {
+        name: "JavaScript",
+        para: "Node js, React Native",
+        logo: js,
+        link: "https://www.javascript.com/",
       },
       {
         name: "React js",
@@ -206,7 +217,7 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“It is my pleasure to strongly recommend Ezra Yehuwalashet as a talented and passionate web developer. I had the pleasure of working with Ezra on two different web development projects during my time at Microverse. Ezra proved to be an excellent coding partner, with a remarkable work ethic and top-notch coding skills. Ezra is an intelligent and friendly individual, with a strong passion for web development. His enthusiasm for coding was infectious, and it was a joy to work alongside him. Whenever we faced tough challenges during our projects, Ezra demonstrated his ability to find creative solutions that produced results. Throughout my collaboration with Ezra, I was consistently impressed by his attention to detail, his thoroughness, and his ability to deliver projects on time. He was a reliable and trustworthy team player, and I can confidently vouch that his passion and dedication toward his work would make him a valuable addition to any team. It is with the utmost confidence that I recommend Ezra for any web development role. I'm sure that his exceptional skills, as well as his passion and positive attitude, would make him an asset to any organization.”",
+          "“It is my pleasure to strongly recommend Ezra Yehuwalashet as a talented and passionate web developer. I had the pleasure of working with Ezra on two different web development projects during my time at Microverse. Ezra proved to be an excellent coding partner, with a remarkable work ethic and top-notch coding skills. Ezra is an intelligent and friendly individual, with a strong passion for web development. His enthusiasm for coding was infectious, and it was a joy to work alongside him. Whenever we faced tough challenges during our projects, Ezra demonstrated his ability to find creative solutions that produced results. Throughout my collaboration with Ezra, I was consistently impressed by his attention to detail, his thoroughness, and his ability to deliver projects on time. He was a reliable and trustworthy team player, and I can confidently vouch that his passion and dedication toward his work would make him a valuable addition to any team.”",
         img: avatar1,
         name: "IKBAL ELHAM ",
       },
@@ -215,6 +226,18 @@ export const content = {
           "“I had the pleasure of working with Ezra and would highly recommend him for any project or role. Ezra is a skilled full-stack developer with a strong work ethic and attention to detail. I remember he teaching some advices that I am still using today. Additionally, Ezra is a reliable and collaborative team member, always willing to lend a hand and support his colleagues. Overall, I believe Ezra would be a valuable asset to any organization and I highly recommend him.”",
         img: avatar2,
         name: "EDGARD SOZA",
+      },
+      {
+        review:
+          "“It is an honor to recommend Ezra as one of the best coding partners I've had in my career as a programmer. Ezra is not only an exceptional programmer with a natural ability to solve complex problems but also stands out for his tireless dedication to studying and unwavering determination. His relentless pursuit of excellence helped us overcome academic challenges and approach projects with creativity and innovative perspectives. Ezra possesses a unique ability to motivate and inspire those around him, encouraging them to think differently and tackle problems from various angles. He combines strong technical skills with exceptional soft skills, making him a role model in the industry. His success in programming and his effective collaboration with others make him an invaluable asset to any development team.”",
+          img: avatar3,
+          name: "Marianela Muñoz Gutierrez"
+      }, 
+      {
+        review:
+          "“I had the opportunity to work with Ezera Yehuwalashet for a while at Microverse, and I was impressed by their expertise and creativity as a web developer. Ezera has a solid knowledge of the web development stack, including HTML, CSS, JavaScript, React, Redux, and Ruby on Rails. They were able to deliver high-quality and user-friendly web applications that met the requirements and expectations. Ezra is not only a skilled coder, but also a great team player and communicator. They collaborated effectively with other developers, designers, and project managers, and always contributed valuable insights and feedback. They were also proactive in learning new technologies and best practices, and always willing to share their knowledge with others.”",
+          img: avatar4,
+          name: "Yoseph Addisu"
       }
     ],
   },
@@ -248,6 +271,6 @@ export const content = {
     ],
   },
   Footer: {
-    test: "2023 CodeAProgram. All Rights Reserved"
+    test: "2022 CodeAProgram. All Rights Reserved"
   },
 };

@@ -29,14 +29,14 @@ const Recommendations = () => {
           }}
           data-aos="fade-up"
           loop={true}
-          spaceBetween={40}
+          spaceBetween={30}
           slidesPerView={1.7}
           onSlideChange={(e) => {
             console.log(e.realIndex);
             setActiveIndex(e.realIndex);
           }}
           modules={[Pagination]}
-          className="md:h-96 h-[40rem] max-w-3xl"
+          className="md:h-96 h-[60rem] max-w-6xl"
         >
           {Recommendations.testimonials_content.map((content, i) => (
             <SwiperSlide key={i}>
