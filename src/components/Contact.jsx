@@ -12,16 +12,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
   
-    // Assuming you have form fields with the following names: name, email, and message
-    const name = form.current.elements.from_name.value;
-    const email = form.current.elements.user_email.value;
-    const message = form.current.elements.message.value;
-  
     emailjs
       .sendForm(
         'service_10od16n',
         'template_9m3isme',
-        { name, email, message }, // Pass name, email, and message as data
+        {
+          name: form.current.elements.name.value,
+          email: form.current.elements.email.value,
+          message: form.current.elements.message.value
+        },
         'V_-rM1t8BQF5obEkO'
       )
       .then(
@@ -37,7 +36,8 @@ const Contact = () => {
           toast.error(error.text);
         }
       );
-  };  
+  };
+  
 
   return (
     <section className="bg-dark_primary text-white" id="contact">
