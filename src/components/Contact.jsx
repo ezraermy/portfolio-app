@@ -11,17 +11,10 @@ const Contact = () => {
   // Sending Email
   const sendEmail = (e) => {
     e.preventDefault();
-  
+
     emailjs
       .sendForm(
-        'service_10od16n',
-        'template_9m3isme',
-        {
-          name: form.current.elements.name.value,
-          email: form.current.elements.email.value,
-          message: form.current.elements.message.value
-        },
-        'V_-rM1t8BQF5obEkO'
+      'service_10od16n', 'template_9m3isme', form.current, 'V_-rM1t8BQF5obEkO'
       )
       .then(
         (result) => {
@@ -29,7 +22,7 @@ const Contact = () => {
           // Clear all input field values
           form.current.reset();
           // Success toast message
-          toast.success("Email sent Successfully");
+          toast.success("Email send Successfully");
         },
         (error) => {
           console.log(error.text);
@@ -37,7 +30,6 @@ const Contact = () => {
         }
       );
   };
-  
 
   return (
     <section className="bg-dark_primary text-white" id="contact">
