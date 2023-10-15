@@ -52,14 +52,14 @@ const Contact = () => {
             {/* Input Name as same as email js templates values */}
             <input
               type="text"
-              name="name"
+              name="from_name"
               placeholder="Name"
               required
               className="border border-slate-600 p-3 rounded"
             />
             <input
               type="email"
-              name="email"
+              name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
               placeholder="Email Id"
               required
