@@ -22,14 +22,10 @@ import project4 from "./assets/images/Projects/blog.png";
 import project5 from "./assets/images/Projects/recipe.png";
 import project6 from "./assets/images/Projects/budget.png";
 import project7 from "./assets/images/Projects/rentacar.png"
-import person_project from "./assets/images/Projects/person3.JPG";
-import person_project2 from "./assets/images/Projects/person4.JPG";
+
 
 import avatar1 from "./assets/images/Testimonials/Ikbal.png";
 import avatar2 from "./assets/images/Testimonials/soza.png";
-
-import Hireme_person from "./assets/images/Hireme/person3.JPG";
-import Hireme_person2 from "./assets/images/Hireme/person4.JPG";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -166,8 +162,6 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "MY TOUR DE FORCE",
-    image1: person_project,
-    image2: person_project2,
     project_content: [
       {
         title: "Rent a Car",
@@ -222,8 +216,6 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Open To Work",
   },
