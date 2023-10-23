@@ -1,8 +1,7 @@
 // import images
 import { GrMail } from 'react-icons/gr';
 import { MdArrowForward, MdCall, MdOutlinePermContactCalendar } from 'react-icons/md';
-import { BsTwitter } from 'react-icons/bs';
-import { BsLinkedIn } from 'react-icons/bs';
+import { BsTwitter, BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 import { TbSmartHome } from 'react-icons/tb';
 import { BiUser } from 'react-icons/bi';
@@ -252,7 +251,7 @@ const content = {
       },
       {
         text: 'Ezra Yehuwalashet',
-        icon: BsLinkedIn,
+        icon: BsLinkedin,
         link: 'https://www.linkedin.com/in/ezra-yehuwalashet/',
       },
       {
