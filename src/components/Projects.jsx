@@ -37,6 +37,10 @@ const Projects = () => {
                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]"
               >
                 <img src={content.image} alt="..." />
+                <div className="md:container">
+                  <p className="font-italy font-Poppins">{content.Summary}</p>
+                </div>
+                <p className="font-bold font-Poppins">{content.TeckStack}</p>
                 <div className="flex flex-row justify-between mt-4">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <a href={content.githubLink} target="_blank" rel="noopener noreferrer">

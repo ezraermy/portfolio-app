@@ -168,6 +168,8 @@ const content = {
         title: 'Rent a Car',
         image: project7,
         githubLink: 'https://github.com/ezraermy/full-stack-capstone-front-end',
+        Summary: 'Rent a Car is a full-stack web application that enables users to view a list of cars, access detailed information about each car, rent for cars, add new car items, delete existing car items, and list all rentals associated with a specific user',
+        TeckStack: 'React, Redux, Ruby on Rails, PostgreSQL, Bootstrap',
       },
       {
         title: 'RECIPE-APP',
