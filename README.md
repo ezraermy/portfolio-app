@@ -121,7 +121,7 @@ To run tests, run the following command:
   npm test
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ `<p align="right">`(`<a href="#readme-top">`back to top `</a>`)`</p>`
 
 <!-- AUTHORS -->
 
@@ -137,7 +137,7 @@ To run tests, run the following command:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features `<a name="future-features"></a>`
+* [ ] 🔭 Future Features `<a name="future-features"></a>`
 
 - [ ] **[Main_Page]**
 
