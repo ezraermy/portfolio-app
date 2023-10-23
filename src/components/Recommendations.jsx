@@ -1,13 +1,13 @@
-import { content } from "../Content";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+
+import { useState } from 'react';
+import content from '../Content';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination } from "swiper";
-import { useState } from "react";
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Recommendations = () => {
   const { Recommendations } = content;
@@ -23,12 +23,12 @@ const Recommendations = () => {
         </h4>
         <br />
         <Swiper
-          direction={"vertical"}
+          direction="vertical"
           pagination={{
             clickable: true,
           }}
           data-aos="fade-up"
-          loop={true}
+          loop
           spaceBetween={30}
           slidesPerView={1.7}
           onSlideChange={(e) => {
@@ -39,12 +39,12 @@ const Recommendations = () => {
           className="md:h-96 h-[60rem] max-w-6xl"
         >
           {Recommendations.testimonials_content.map((content, i) => (
-            <SwiperSlide key={i}>
+            <SwiperSlide key={content.name}>
               <div
-                className={` duration-500 bg-bg_white border-none
-              p-0 h-full rounded-2xl flex items-center gap-6
-               border-slate-200 md:flex-row flex-col
-                ${activeIndex !== i && "scale-75 blur-sm"}`}
+                className={`duration-500 bg-bg_white border-none
+                  p-0 h-full rounded-2xl flex items-center gap-6
+                  border-slate-200 md:flex-row flex-col
+                  ${activeIndex !== i && 'scale-75 blur-sm'}`}
               >
                 <img src={content.img} alt="..." className="h-24" />
                 <div>

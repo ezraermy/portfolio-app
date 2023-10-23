@@ -1,4 +1,4 @@
-import { content } from "../Content";
+import content from '../Content';
 
 const Hireme = () => {
   const { Hireme } = content;
@@ -33,7 +33,7 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
+            <button type="button" className="btn bg-dark_primary text-white">
               {Hireme.btnText}
             </button>
           </div>

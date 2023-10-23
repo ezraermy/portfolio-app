@@ -1,4 +1,4 @@
-import { content } from "../Content";
+import content from '../Content';
 
 const Services = () => {
   const { services } = content;
@@ -13,13 +13,12 @@ const Services = () => {
         </h4>
         <br />
         <div className="flex gap-5 justify-between flex-wrap group">
-          {services.service_content.map((content, i) => (
+          {services.service_content.map((content) => (
             <div
-              key={i}
+              key={content.title}
               data-aos="fade-up"
-              data-aos-delay={i * 600}
-              className="min-w-[14rem] duration-300 cursor-pointer border-2 border-slate-200 rounded-xl text-center bg-bg_light_primary p-6 flex-1 group-hover:blur-sm 
-              hover:!blur-none"
+              data-aos-delay={content.title.length * 100}
+              className="min-w-[14rem] duration-300 cursor-pointer border-2 border-slate-200 rounded-xl text-center bg-bg_light_primary p-6 flex-1 group-hover:blur-sm hover:!blur-none"
             >
               <img src={content.logo} alt="..." className="mx-auto" />
               <h6 className="my-3">{content.title}</h6>
