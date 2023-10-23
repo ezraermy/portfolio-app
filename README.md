@@ -166,7 +166,7 @@ If you like this project...
 ## 🙏 Acknowledgments `<a name="acknowledgements"></a>`
 
 - I would like to thank  Microverse for this opportunity to learn and W3Schools for the information shared in their site.
-- I would like to thank you [codeAprogram](https://reactjsexample.com/a-portfolio-page-using-react-js-and-tailwind-css/) for his dedication and generesity for making it availabe the open source portfolio code that I insitially used for my portfolio.
+- I would like to thank you [codeAprogram](https://reactjsexample.com/a-portfolio-page-using-react-js-and-tailwind-css/) for his dedication and generosity for making it availabe the open source portfolio code that I insitially used for my portfolio.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
