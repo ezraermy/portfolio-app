@@ -71,7 +71,7 @@ const content = {
         text: 'Years of Experinse in Web development',
       },
       {
-        count: '10+',
+        count: '40+',
         text: 'Projects Worked in my career',
       },
     ],
