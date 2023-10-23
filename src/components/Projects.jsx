@@ -42,10 +42,14 @@ const Projects = () => {
                 </div>
                 <p className="font-bold font-Poppins">{content.TeckStack}</p>
                 <div className="flex flex-row justify-between mt-4">
-                  <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
                     <button type="button" className="font-bold text-gray">
-                      READ MORE
+                      LIVE DEMOS
+                    </button>
+                  </a>
+                  <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="font-bold text-gray">
+                      SOURCE CODE
                     </button>
                   </a>
                 </div>
