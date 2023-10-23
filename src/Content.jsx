@@ -1,5 +1,5 @@
 // import images
-import person from "./assets/images/Hero/person.png";
+import person from "./assets/images/Hero/person1.png";
 
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
