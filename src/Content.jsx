@@ -2,6 +2,8 @@
 import { GrMail } from 'react-icons/gr';
 import { MdArrowForward, MdCall, MdOutlinePermContactCalendar } from 'react-icons/md';
 import { BsTwitter } from 'react-icons/bs';
+import { BsLinkedIn } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 import { TbSmartHome } from 'react-icons/tb';
 import { BiUser } from 'react-icons/bi';
 import { RiServiceLine, RiProjectorLine } from 'react-icons/ri';
@@ -247,6 +249,16 @@ const content = {
         text: 'ezraermy',
         icon: BsTwitter,
         link: 'https://twitter.com/ezraermy',
+      },
+      {
+        text: 'Ezra Yehuwalashet',
+        icon: BsLinkedIn,
+        link: 'https://www.linkedin.com/in/ezra-yehuwalashet/',
+      },
+      {
+        text: 'ezraermy',
+        icon: FaGithub,
+        link: 'https://github.com/ezraermy',
       },
     ],
   },
