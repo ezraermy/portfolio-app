@@ -1,4 +1,12 @@
-`<a name="readme-top"></a>`
+```bash
+<a name="portfolio-app"></a>
+
+<div align="center">
+  <br/>
+
+  <h3><b>Portfolio App</b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -12,6 +20,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -22,39 +31,27 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-app `<a name="about-project"></a>`
+# 📖 [Portfolio App] <a name="about-project"></a>
 
-**Portfolio-app** is a responsive portfolio web application that showcases all of my successful projects and what I am capable of.
+**[Portfolio App]** is a responsive portfolio web application that showcases all of my successful projects and what I am capable of.
 
-## 🛠 Built With `<a name="built-with"></a>`
+## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack `<a name="tech-stack"></a>`
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-   <li>React js</li>
-   <li>CSS</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>Node js</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
+    <li><a href="https://html.com/">html</a></li>
+    <li><a href="https://www.w3schools.com/css/">css</a></li>
+    <li><a href="https://www.javascripttutorial.net/">javascript</a></li>
+    <li><a href="https://react.dev/">ReactJS</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
-### Key Features `<a name="key-features"></a>`
+### Key Features <a name="key-features"></a>
 
 - **[Home_page]**
 - **[Skills_page]**
@@ -62,71 +59,68 @@
 - **[Solutions_page]**
 - **[Contact_page]**
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+[Live link](https://portfolio-xb3u.onrender.com/)
 
-## 🚀 Live Demo `<a name="live-demo"></a>`
+<!-- GETTING STARTED -->
 
-- [Click here](https://portfolio-xb3u.onrender.com/)
+## 💻 Getting Started <a name="getting-started"></a>
 
-<p align="right"><a href="#readme-top">👆</a></p>
-
-<!-- Getting Started -->
-
-## 💻 Getting Started `<a name="getting-started"></a>`
-
-To run the project locally, follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to:
-
-- Install [Git](https://git-scm.com/)
-- Install [Node](https://nodejs.org/en/)
-- Install a code editor, I suggest [VsCode](https://code.visualstudio.com/)
+In order to run this project you need the following tools:
+- Node.js in your computer
+- IDE(e.g.: Vscode,...)
+- Terminal
 
 ### Setup
 
-Clone the repo into your local machine:
+Clone this repository to your desired folder:
 
-```bash
-git clone https://github.com/ezraermy/cookpad.git
+```sh
+  cd your-prefered-folder
+  
+  git clone https://github.com/ezraermy/portfolio-app.git
 ```
 
-Install the dependencies using npm:
+### Install
 
-```bash
-npm install
+- Install this project with:
+
+```sh
+  cd portfolio-app
+
+  npm install or npm i
+```
+
+- Run build for prodction:
+
+```
+  npm run build
 ```
 
 ### Usage
 
-To start the development server run
+To run the project, execute the following command:
 
-```bash
-npm start
+```sh
+  npm start
+
 ```
-
-- this command will start the development server on `localhost:3000` address
-
-To create and optimized production build run
-
-```bash
-npm run build
-```
-
-- this command will create a bunduled chunks of code inside `build/` folder
 
 ### Run tests
 
 To run tests, run the following command:
 
-```bash
+```sh
   npm test
 ```
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -134,46 +128,47 @@ To run tests, run the following command:
 
 👤 **Ezra Yehuwalashet**
 
-- [`<img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" width='20'/>` Email](mailto:ezraermy@gmail.com)
-- [`<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width='20'/>` Twitter](https://twitter.com/ezraermy)
-- [`<img src="https://i.stack.imgur.com/gVE0j.png" width='20'/>` LinkedIn](https://www.linkedin.com/in/ezra-yehuwalashet/)
+- GitHub: [@ezraermy](https://github.com/)
+- Twitter: [@ezraermy](https://twitter.com/)
+- LinkedIn: [Ezra Yehuwalashet](https://linkedin.com/)
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features `<a name="future-features"></a>`
 
-- Improve UI, Page speed, Content rularity, etc...
+- [ ] **[Main_Page]**
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Contributing -->
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing `<a name="contributing"></a>`
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ezraermy/portfolio-app/issues).
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Show your support -->
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support `<a name="support"></a>`
 
-If you like this project leave a start for it.
+If you like this project...
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments `<a name="acknowledgements"></a>`
 
-- I would like to thank  Microverse for this opportunity to learn and W3Schools for the information shared in their site.
-- I extend my gratitude to the creators of [codeAprogram](https://reactjsexample.com/a-portfolio-page-using-react-js-and-tailwind-css) for their invaluable contribution to the open-source community. Their React project has been a source of inspiration and learning for me as I developed this project.
+I would like to thank  Microverse for this opportunity to learn and W3Schools for the information shared in their site.
 
-<p align="right"><a href="#readme-top">👆</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
@@ -181,4 +176,7 @@ If you like this project leave a start for it.
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right"><a href="#readme-top">👆</a></p>
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```

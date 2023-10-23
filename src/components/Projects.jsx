@@ -1,12 +1,11 @@
-import { content } from "../Content";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import content from '../Content';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination } from "swiper";
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Projects = () => {
   const { Projects } = content;
@@ -32,22 +31,21 @@ const Projects = () => {
             modules={[Pagination]}
             className="rounded-3xl pb-16 max-w-xl drop-shadow-primary self-start w-full"
           >
-            {Projects.project_content.map((content, i) => (
-             <SwiperSlide
-             key={i}
-             className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]" 
-           >
-             <img src={content.image} alt="..."/>
-             <div className="flex flex-row justify-between mt-4">
-               <h5 className="font-bold font-Poppins">{content.title}</h5>
-               <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
-                 <button className="font-bold text-gray">
-                   READ MORE
-                 </button>
-               </a>
-             </div>
-           </SwiperSlide>
-                 
+            {Projects.project_content.map((content) => (
+              <SwiperSlide
+                key={content.id}
+                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]"
+              >
+                <img src={content.image} alt="..." />
+                <div className="flex flex-row justify-between mt-4">
+                  <h5 className="font-bold font-Poppins">{content.title}</h5>
+                  <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="font-bold text-gray">
+                      READ MORE
+                    </button>
+                  </a>
+                </div>
+              </SwiperSlide>
             ))}
           </Swiper>
         </div>
