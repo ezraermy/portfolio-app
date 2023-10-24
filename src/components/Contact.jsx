@@ -1,8 +1,7 @@
-import { createElement, useRef } from "react";
-import { content } from "../Content";
-import toast, { Toaster } from "react-hot-toast";
-import emailjs from "emailjs-com";
-
+import { createElement, useRef } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
+import emailjs from 'emailjs-com';
+import content from '../Content';
 
 const Contact = () => {
   const { Contact } = content;
@@ -14,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'service_10od16n', 'template_9m3isme', form.current, 'V_-rM1t8BQF5obEkO'
+        'service_10od16n', 'template_9m3isme', form.current, 'V_-rM1t8BQF5obEkO',
       )
       .then(
         (result) => {
@@ -22,12 +21,12 @@ const Contact = () => {
           // Clear all input field values
           form.current.reset();
           // Success toast message
-          toast.success("Email send Successfully");
+          toast.success('Email send Successfully');
         },
         (error) => {
           console.log(error.text);
           toast.error(error.text);
-        }
+        },
       );
   };
 
@@ -70,20 +69,20 @@ const Contact = () => {
               placeholder="Message"
               className="border border-slate-600 p-3 rounded h-44"
               required
-            ></textarea>
+            />
             <button
-              className="btn self-start
-            bg-white text-dark_primary"
+              type="submit"
+              className="btn self-start bg-white text-dark_primary"
             >
               Submit
             </button>
           </form>
           <div className="flex-1 flex flex-col gap-5">
-            {Contact.social_media.map((content, i) => (
+            {Contact.social_media.map((content) => (
               <div
-                key={i}
+                key={content.text} // Use a unique key
                 data-aos="fade-down"
-                data-aos-delay={i * 430}
+                data-aos-delay={content.text} // You can use a unique identifier as the key
                 className="flex items-center gap-2"
               >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
@@ -95,10 +94,10 @@ const Contact = () => {
                 >
                   {content.text}
                 </a>
-
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>

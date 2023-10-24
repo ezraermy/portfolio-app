@@ -1,42 +1,34 @@
 // import content
-import { createElement, useState } from "react";
-import { content } from "../Content";
+import { createElement, useState } from 'react';
+import Modal from 'react-modal';
+import content from '../Content';
 // import modal package
-import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-    maxWidth: "23rem",
-    width: "90%",
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    maxWidth: '23rem',
+    width: '90%',
   },
   overlay: {
-    padding: "2rem",
+    padding: '2rem',
   },
 };
-Modal.setAppElement("#root");
+Modal.setAppElement('#root');
 
 const Skills = () => {
   const { skills } = content;
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const [selectSkill, setSelectSkill] = useState(null);
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
+  const [modalIsOpen] = useState(false);
+  const [selectSkill] = useState(null);
 
   // New function to open link in a new tab
   function openSkillLink(link) {
-    window.open(link, "_blank");
+    window.open(link, '_blank');
   }
 
   return (
@@ -44,7 +36,6 @@ const Skills = () => {
       {/* modal */}
       <Modal
         isOpen={modalIsOpen}
-        onRequestClose={closeModal}
         style={customStyles}
       >
         <div className="flex items-center gap-2">
@@ -74,11 +65,11 @@ const Skills = () => {
         </h4>
         <br />
         <div className="flex flex-wrap gap-4 justify-center">
-          {skills.skills_content.map((skill, i) => (
+          {skills.skills_content.map((skill) => (
             <div
-              key={i}
+              key={skill.id}
               data-aos="fade-up"
-              data-aos-delay={i * 400}
+              data-aos-delay={skill.id * 400}
               className="bg-white sm:cursor-pointer
                relative group w-full flex items-center
                 gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200"
@@ -93,12 +84,18 @@ const Skills = () => {
               <div>
                 <h6>{skill.name}</h6>
                 <p className="italic">{skill.para}</p>
-                <div
-                  onClick={() => openSkillLink(skill.link)} // Call the new function here
-                  className="text-xl absolute top-3 right-3 cursor-pointer" // Add cursor-pointer class for better UX
+                <button
+                  type="button"
+                  onClick={() => openSkillLink(skill.link)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      openSkillLink(skill.link);
+                    }
+                  }}
+                  className="text-xl absolute top-3 right-3 cursor-pointer"
                 >
                   {createElement(skills.icon)}
-                </div>
+                </button>
               </div>
             </div>
           ))}
