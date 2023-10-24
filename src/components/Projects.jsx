@@ -32,17 +32,27 @@ const Projects = () => {
             className="rounded-3xl pb-16 max-w-xl drop-shadow-primary self-start w-full"
           >
             {Projects.project_content.map((content) => (
-              <SwiperSlide
-                key={content.id}
-                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]"
-              >
+              <SwiperSlide key={content.id} className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-[400px]">
                 <img src={content.image} alt="..." />
-                <div className="md:container">
-                  <p className="font-italy font-Poppins">{content.Summary}</p>
+                <div className="md:container bg-gray-200 shadow-lg p-6">
+                  <h5 className="font-bold">{content.title}</h5>
+                  <p className="font-italic font-Poppins text-xs m-1">{content.Summary}</p>
+                  <div>
+                    {content.TeckStack ? (
+                      <div className="flex flex-wrap">
+                        {content.TeckStack.map((tech) => (
+                          <div key={tech} className="bg-blue-200 p-2 rounded-full m-1 flex justify-start">
+                            <p className="text-xs flex justify-start">{tech}</p>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div>No tech stack information available</div>
+                    )}
+                  </div>
                 </div>
-                <p className="font-bold font-Poppins">{content.TeckStack}</p>
                 <div className="flex flex-row justify-between mt-4">
-                  <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
+                  <a href={content.liveDemo} target="_blank" rel="noopener noreferrer">
                     <button type="button" className="font-bold text-gray">
                       LIVE DEMOS
                     </button>
