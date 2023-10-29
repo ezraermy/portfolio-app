@@ -165,7 +165,7 @@ const content = {
     subtitle: 'MY TOUR DE FORCE',
     project_content: [
       {
-        title: 'Rent a Car',
+        title: 'RENT A CAR',
         image: project7,
         githubLink: 'https://github.com/ezraermy/full-stack-capstone-front-end',
         liveDemo: 'https://rent-a-car-front-end.onrender.com/',
