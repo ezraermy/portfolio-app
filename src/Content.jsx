@@ -26,7 +26,6 @@ import serviceLogo3 from './assets/images/Services/logo3.png';
 import project1 from './assets/images/Projects/restaurant.png';
 import project3 from './assets/images/Projects/calculator.png';
 import project4 from './assets/images/Projects/blog.png';
-import project5 from './assets/images/Projects/recipe.png';
 import project6 from './assets/images/Projects/budget.png';
 import project7 from './assets/images/Projects/rentacar.png';
 
@@ -179,14 +178,6 @@ const content = {
         liveDemo: 'https://rails-budget-app-sxs1.onrender.com/',
         Summary: 'A web application for efficient budget management. Easily track your expenses and spending habits by categorizing transactions.',
         TeckStack: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-      },
-      {
-        title: 'RECIPE-APP',
-        image: project5,
-        githubLink: 'https://github.com/ezraermy/recipe-app',
-        liveDemo: 'https://github.com/ezraermy/recipe-app',
-        Summary: 'Manages user recipes and ingredients. Users can save ingredients, create recipes, and generate shopping lists. Recipes can also be shared publicly.',
-        TeckStack: ['Ruby on Rails', 'PosgreSQL', 'Bootstrap'],
       },
       {
         title: 'FE-RESTAURANT',
