@@ -26,7 +26,6 @@ import serviceLogo3 from './assets/images/Services/logo3.png';
 import project1 from './assets/images/Projects/restaurant.png';
 import project3 from './assets/images/Projects/calculator.png';
 import project4 from './assets/images/Projects/blog.png';
-import project5 from './assets/images/Projects/recipe.png';
 import project6 from './assets/images/Projects/budget.png';
 import project7 from './assets/images/Projects/rentacar.png';
 
@@ -165,7 +164,7 @@ const content = {
     subtitle: 'MY TOUR DE FORCE',
     project_content: [
       {
-        title: 'Rent a Car',
+        title: 'RENT A CAR',
         image: project7,
         githubLink: 'https://github.com/ezraermy/full-stack-capstone-front-end',
         liveDemo: 'https://rent-a-car-front-end.onrender.com/',
@@ -179,14 +178,6 @@ const content = {
         liveDemo: 'https://rails-budget-app-sxs1.onrender.com/',
         Summary: 'A web application for efficient budget management. Easily track your expenses and spending habits by categorizing transactions.',
         TeckStack: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-      },
-      {
-        title: 'RECIPE-APP',
-        image: project5,
-        githubLink: 'https://github.com/ezraermy/recipe-app',
-        liveDemo: 'https://github.com/ezraermy/recipe-app',
-        Summary: 'Manages user recipes and ingredients. Users can save ingredients, create recipes, and generate shopping lists. Recipes can also be shared publicly.',
-        TeckStack: ['Ruby on Rails', 'PosgreSQL', 'Bootstrap'],
       },
       {
         title: 'FE-RESTAURANT',
@@ -220,7 +211,7 @@ const content = {
     testimonials_content: [
       {
         review:
-          "“It is my pleasure to strongly recommend Ezra Yehuwalashet as a talented and passionate web developer. I had the pleasure of working with Ezra on two different web development projects during my time at Microverse. Ezra proved to be an excellent coding partner, with a remarkable work ethic and top-notch coding skills. Ezra is an intelligent and friendly individual, with a strong passion for web development. His enthusiasm for coding was infectious, and it was a joy to work alongside him. Whenever we faced tough challenges during our projects, Ezra demonstrated his ability to find creative solutions that produced results. Throughout my collaboration with Ezra, I was consistently impressed by his attention to detail, his thoroughness, and his ability to deliver projects on time. He was a reliable and trustworthy team player, and I can confidently vouch that his passion and dedication toward his work would make him a valuable addition to any team. It is with the utmost confidence that I recommend Ezra for any web development role. I'm sure that his exceptional skills, as well as his passion and positive attitude, would make him an asset to any organization.”",
+          '“Ezra Yehuwalashet is a highly skilled and dedicated web developer. I had the pleasure of working with him on multiple projects at Microverse. Ezra is not only an excellent coding partner but also an enthusiastic and intelligent individual. His ability to find creative solutions to challenges and deliver projects on time is remarkable. He is a reliable and trustworthy team player, and I wholeheartedly recommend him for any web development role.”',
         img: avatar1,
         name: 'IKBAL ELHAM ',
       },
@@ -232,13 +223,15 @@ const content = {
       },
       {
         review:
-          '“It is an honor to recommend Ezra as one of the best coding partners I have had in my career as a programmer. Ezra is not only an exceptional programmer with a natural ability to solve complex problems but also stands out for his tireless dedication to studying and unwavering determination. His relentless pursuit of excellence helped us overcome academic challenges and approach projects with creativity and innovative perspectives. Ezra possesses a unique ability to motivate and inspire those around him, encouraging them to think differently and tackle problems from various angles. He combines strong technical skills with exceptional soft skills, making him a role model in the industry. His success in programming and his effective collaboration with others make him an invaluable asset to any development team.It is an honor to recommend Ezra as one of the best coding partners I have had in my career as a programmer. Ezra is not only an exceptional programmer with a natural ability to solve complex problems but also stands out for his tireless dedication to studying and unwavering determination. His relentless pursuit of excellence helped us overcome academic challenges and approach projects with creativity and innovative perspectives. Ezra possesses a unique ability to motivate and inspire those around him, encouraging them to think differently and tackle problems from various angles. He combines strong technical skills with exceptional soft skills, making him a role model in the industry. His success in programming and his effective collaboration with others make him an invaluable asset to any development team.”',
+          '“I wholeheartedly recommend Ezra as an outstanding coding partner in my career. Ezra excels in programming, displaying a remarkable knack for solving complex problems and a relentless commitment to learning. His dedication has been instrumental in overcoming academic challenges and approaching projects with innovative thinking. His ability to motivate and inspire others, fostering diverse problem-solving approaches, is truly unique. He blends strong technical expertise with exceptional soft skills, making him a role model in the industry and an invaluable asset to any development team."”',
         img: avatar3,
+        name: 'MARIANELA MUNOZ GUTIERREZ',
       },
       {
         review:
-          '“I had the opportunity to work with Ezera Yehuwalashet for a while at Microverse, and I was impressed by their expertise and creativity as a web developer. Ezera has a solid knowledge of the web development stack, including HTML, CSS, JavaScript, React, Redux, and Ruby on Rails. They were able to deliver high-quality and user-friendly web applications that met the requirements and expectations. Ezra is not only a skilled coder, but also a great team player and communicator. They collaborated effectively with other developers, designers, and project managers, and always contributed valuable insights and feedback. They were also proactive in learning new technologies and best practices, and always willing to share their knowledge with others. Ezra is an asset to any web development team, and I highly recommend them for any position that requires web development skills. They have my full endorsement and support.”',
+          '“I had the pleasure of working with Ezra Yehuwalashet at Microverse, and I was impressed by their expertise as a web developer. Ezra is highly knowledgeable in web development technologies, including HTML, CSS, JavaScript, React, Redux, and Ruby on Rails. They consistently delivered high-quality web applications that met requirements. Ezra is not only a skilled coder but also a great team player and effective communicator. They actively collaborated with other team members, shared insights, and adapted to new technologies. I highly recommend Ezra for any web development role; they have my full endorsement.”',
         img: avatar4,
+        name: 'YOSEPH ADDISU',
       },
     ],
   },

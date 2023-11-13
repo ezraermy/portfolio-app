@@ -41,14 +41,26 @@ const Recommendations = () => {
           {Recommendations.testimonials_content.map((content, i) => (
             <SwiperSlide key={content.name}>
               <div
-                className={`duration-500 bg-bg_white border-none
-                  p-0 h-full rounded-2xl flex items-center gap-6
-                  border-slate-200 md:flex-row flex-col
-                  ${activeIndex !== i && 'scale-75 blur-sm'}`}
+                className={`duration-500 bg-bg_white border-none p-0 h-full rounded-2xl flex items-center gap-6 border-slate-200 md:flex-row flex-col ${activeIndex !== i && 'scale-75 blur-sm'}`}
+                style={{
+                  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                  padding: '20px',
+                }}
               >
                 <img src={content.img} alt="..." className="h-24" />
                 <div>
-                  <p className="sm:text-base text-sm">{content.review}</p>
+                  <p
+                    className="sm:text-base text-sm"
+                    style={{
+                      background: 'linear-gradient(to right, #93A5CF, #E4EfE9)', // Add a gradient background
+                      padding: '10px', // Add some padding for spacing
+                      border: '2px solid #c90', // Add a colored border
+                      borderRadius: '10px', // Add rounded corners
+                      boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)', // Add a subtle shadow
+                    }}
+                  >
+                    {content.review}
+                  </p>
                   <br />
                   <h6>{content.name}</h6>
                 </div>
