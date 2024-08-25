@@ -1,8 +1,9 @@
 // import images
 import { GrMail } from 'react-icons/gr';
 import { MdArrowForward, MdCall, MdOutlinePermContactCalendar } from 'react-icons/md';
-import { BsTwitter, BsLinkedin } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { TbSmartHome } from 'react-icons/tb';
 import { BiUser } from 'react-icons/bi';
 import { RiServiceLine, RiProjectorLine } from 'react-icons/ri';
@@ -265,7 +266,7 @@ const content = {
       },
       {
         text: 'ezraermy',
-        icon: BsTwitter,
+        icon: FaXTwitter,
         link: 'https://twitter.com/ezraermy',
       },
       {
