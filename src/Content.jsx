@@ -169,7 +169,7 @@ const content = {
         title: 'Shop | Ezra',
         image: project8,
         githubLink: 'https://github.com/ezraermy/04-tesla-shop',
-        liveDemo: 'https://github.com/ezraermy/04-tesla-shop',
+        liveDemo: 'https://shop-ezra.vercel.app/',
         Summary: 'This app is designed to find and buy Tesla gear, accessories, and more. Stay updated with the latest Tesla news.',
         TeckStack: ['Next.js', 'PostgreSQL', 'Tailwind CSS'],
       },
