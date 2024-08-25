@@ -164,6 +164,14 @@ const content = {
     subtitle: 'MY TOUR DE FORCE',
     project_content: [
       {
+        title: 'Shop | Ezra',
+        image: project7,
+        githubLink: 'https://github.com/ezraermy/04-tesla-shop',
+        liveDemo: 'https://github.com/ezraermy/04-tesla-shop',
+        Summary: 'This app is designed to find and buy Tesla gear, accessories, and more. Stay updated with the latest Tesla news.',
+        TeckStack: ['Next.js', 'PostgreSQL', 'Tailwind CSS'],
+      },
+      {
         title: 'RENT A CAR',
         image: project7,
         githubLink: 'https://github.com/ezraermy/full-stack-capstone-front-end',
