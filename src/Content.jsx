@@ -29,6 +29,7 @@ import project3 from './assets/images/Projects/calculator.png';
 import project4 from './assets/images/Projects/blog.png';
 import project6 from './assets/images/Projects/budget.png';
 import project7 from './assets/images/Projects/rentacar.png';
+import project8 from './assets/images/Projects/shop-ezra.png';
 
 import avatar1 from './assets/images/Testimonials/Ikbal.png';
 import avatar2 from './assets/images/Testimonials/soza.png';
@@ -166,7 +167,7 @@ const content = {
     project_content: [
       {
         title: 'Shop | Ezra',
-        image: project7,
+        image: project8,
         githubLink: 'https://github.com/ezraermy/04-tesla-shop',
         liveDemo: 'https://github.com/ezraermy/04-tesla-shop',
         Summary: 'This app is designed to find and buy Tesla gear, accessories, and more. Stay updated with the latest Tesla news.',
