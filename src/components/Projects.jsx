@@ -51,18 +51,6 @@ const Projects = () => {
                     )}
                   </div>
                 </div>
-                <div className="flex flex-row justify-between mt-4">
-                  <a href={content.liveDemo} target="_blank" rel="noopener noreferrer">
-                    <button type="button" className="font-bold text-gray">
-                      LIVE DEMOS
-                    </button>
-                  </a>
-                  <a href={content.githubLink} target="_blank" rel="noopener noreferrer">
-                    <button type="button" className="font-bold text-gray">
-                      SOURCE CODE
-                    </button>
-                  </a>
-                </div>
               </SwiperSlide>
             ))}
           </Swiper>
