@@ -17,7 +17,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^8.4.7",
+    "swiper": "^8.4.4",
     "tailwindcss": "^3.3.3",
     "web-vitals": "^2.1.4"
   },
@@ -50,21 +50,15 @@
     "@babel/eslint-parser": "^7.22.15",
     "@babel/plugin-syntax-jsx": "^7.22.5",
     "@babel/preset-react": "^7.22.15",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "postcss": "^8.4.31",
-    "stylelint": "^15.10.2",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-csstree-validator": "^3.1.1",
-    "stylelint-scss": "^5.0.1"
-  },
-  "engines": {
-    "node": "22.x",
-    "npm": ">=10.0.0"
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
